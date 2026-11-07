@@ -19,7 +19,7 @@ and reviewer while the AI does much of the typing.
       <h3><a href="https://github.com/FernandoRivas1/rental-software">Rental Software: Counter Check-out</a></h3>
       <p>Car-rental check-out run on two devices synced live over WebSockets: the agent's console and the customer's signing tablet. Includes AI document OCR, loyalty tiers, vehicle ranking and upselling, and business rules enforced in the backend.</p>
       <p><b>FastAPI · React/TypeScript · Postgres · WebSockets · Claude API</b></p>
-      <p><a href="https://fleetpro-prototype.vercel.app">Live demo</a> · 40 backend tests · CI</p>
+      <p><a href="https://rental-software-demo.vercel.app">Live demo</a> · 40 backend tests · CI</p>
     </td>
     <td width="50%" valign="top">
       <a href="https://github.com/FernandoRivas1/FleetMonitorDemo">
