@@ -1,70 +1,56 @@
-Fernando Rivas
+# Hi, I'm Fernando Rivas 👋
 
-Digital Transformation leader focused on data, automation, and AI-assisted software development.
+**Technology lead in digital transformation. I turn operational problems into working software, and I use AI to build it fast.**
 
-About Me
+I work where business operations meet technology: I find the process that's
+costing time or money, design the product that fixes it, and lead it from
+idea to a deployed, tested app. Lately I build those apps hands-on with AI
+coding tools (Claude Code, Claude Design), acting as product owner, architect
+and reviewer while the AI does much of the typing.
 
-I work at the intersection of business operations, technology, and innovation, helping organizations identify opportunities, design digital solutions, and deliver measurable operational improvements.
+## ⭐ Featured projects
 
-My interests include:
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/FernandoRivas1/rental-software">
+        <img src="https://raw.githubusercontent.com/FernandoRivas1/rental-software/main/docs/screenshots/hero.png" alt="Rental Software: executive console and client tablet">
+      </a>
+      <h3><a href="https://github.com/FernandoRivas1/rental-software">Rental Software: Counter Check-out</a></h3>
+      <p>Car-rental check-out run on two devices synced live over WebSockets: the agent's console and the customer's signing tablet. Includes AI document OCR, loyalty tiers, vehicle ranking and upselling, and business rules enforced in the backend.</p>
+      <p><b>FastAPI · React/TypeScript · Postgres · WebSockets · Claude API</b></p>
+      <p><a href="https://fleetpro-prototype.vercel.app">Live demo</a> · 40 backend tests · CI</p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/FernandoRivas1/FleetMonitorDemo">
+        <img src="https://raw.githubusercontent.com/FernandoRivas1/FleetMonitorDemo/main/docs/screenshots/fleet-map.png" alt="FleetMonitor Demo: live fleet map">
+      </a>
+      <h3><a href="https://github.com/FernandoRivas1/FleetMonitorDemo">FleetMonitor Demo</a></h3>
+      <p>Fleet-monitoring dashboard for a simulated multi-city rental fleet: live map, telemetry, a maintenance and driver-alert engine, and a chat assistant that answers questions about the fleet in plain English.</p>
+      <p><b>FastAPI · React · Leaflet · Postgres · Claude API</b></p>
+      <p><a href="https://fleetmonitor-demo-frontend.vercel.app">Live demo</a> · 23 backend tests · CI</p>
+    </td>
+  </tr>
+</table>
 
-- Digital Transformation
-- Data Analytics & Business Intelligence
-- Artificial Intelligence
-- Process Automation
-- Product & Solution Design
-- Cloud Technologies
-- Software Development with AI
+## 🤖 How I build with AI
 
-Current Learning Journey
+- **I own the product and the rules.** Every project starts with a written
+  product context (domain, data model, business rules, what is out of
+  scope) that steers the AI. See
+  [`CLAUDE.md`](https://github.com/FernandoRivas1/rental-software/blob/main/CLAUDE.md)
+  for an example.
+- **Critical rules live in the backend and are tested.** I don't treat UI
+  flow as a safeguard. Tests run against a real Postgres, and CI runs on
+  every pull request.
+- **Changes go through pull requests.** I review, test end to end and
+  merge, the same discipline I'd expect from a team.
+- **I'm honest about it.** Each README says what was AI-assisted.
 
-I am currently expanding my technical capabilities in:
+## 🧰 Toolbox
 
-- Git & Software Development Workflows
-- React
-- REST APIs
-- Azure
-- AWS
-- Application Security
-- AI-Assisted Development using Claude Code
+**Product & delivery:** digital transformation · process automation · product discovery · KPIs & BI dashboards
 
-Areas of Work
+**Building:** Python · FastAPI · SQLAlchemy · TypeScript · React · Vite · Postgres · REST & WebSockets · GitHub Actions · Vercel · Render · Claude API · Claude Code
 
-Digital Transformation
-
-Design and implementation of initiatives that improve efficiency, scalability, and customer experience through technology.
-
-Data & Analytics
-
-Development of dashboards, reporting solutions, KPIs, and decision-support tools using data-driven approaches.
-
-AI & Automation
-
-Exploration and implementation of AI-powered workflows, internal tools, and productivity solutions.
-
-Software Prototyping
-
-Building MVPs and business applications through modern development practices and AI-assisted coding.
-
-Current Focus
-
-- Building internal digital products
-- Accelerating software delivery with AI
-- Improving operational processes through technology
-- Strengthening technical architecture and product development skills
-
-Repositories
-
-This profile contains projects related to:
-
-- Digital Transformation initiatives
-- Data Analytics
-- Business Intelligence
-- Automation
-- Software Prototypes
-- Learning Projects
-- AI Experiments
-
----
-
-Always learning. Always building.
+**Growing into:** Azure · AWS · application security
