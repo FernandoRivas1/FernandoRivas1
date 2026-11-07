@@ -13,10 +13,10 @@ and reviewer while the AI does much of the typing.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/FernandoRivas1/fleetpro-prototype">
-        <img src="https://raw.githubusercontent.com/FernandoRivas1/fleetpro-prototype/main/docs/screenshots/hero.png" alt="Rental Software: executive console and client tablet">
+      <a href="https://github.com/FernandoRivas1/rental-software">
+        <img src="https://raw.githubusercontent.com/FernandoRivas1/rental-software/main/docs/screenshots/hero.png" alt="Rental Software: executive console and client tablet">
       </a>
-      <h3><a href="https://github.com/FernandoRivas1/fleetpro-prototype">Rental Software: Counter Check-out</a></h3>
+      <h3><a href="https://github.com/FernandoRivas1/rental-software">Rental Software: Counter Check-out</a></h3>
       <p>Car-rental check-out run on two devices synced live over WebSockets: the agent's console and the customer's signing tablet. Includes AI document OCR, loyalty tiers, vehicle ranking and upselling, and business rules enforced in the backend.</p>
       <p><b>FastAPI · React/TypeScript · Postgres · WebSockets · Claude API</b></p>
       <p><a href="https://fleetpro-prototype.vercel.app">Live demo</a> · 40 backend tests · CI</p>
@@ -38,7 +38,7 @@ and reviewer while the AI does much of the typing.
 - **I own the product and the rules.** Every project starts with a written
   product context (domain, data model, business rules, what is out of
   scope) that steers the AI. See
-  [`CLAUDE.md`](https://github.com/FernandoRivas1/fleetpro-prototype/blob/main/CLAUDE.md)
+  [`CLAUDE.md`](https://github.com/FernandoRivas1/rental-software/blob/main/CLAUDE.md)
   for an example.
 - **Critical rules live in the backend and are tested.** I don't treat UI
   flow as a safeguard. Tests run against a real Postgres, and CI runs on
